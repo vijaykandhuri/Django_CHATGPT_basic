@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from django.http import HttpResponse,HttpRequest
 import openai
 
-openai_api_key = 'your CHATGPY API KEY'
+openai_api_key = 'your CHATGPT API KEY'
 openai.api_key = openai_api_key
 
 """def ask_openai(message):
